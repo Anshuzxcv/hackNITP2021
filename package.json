@@ -1,0 +1,25 @@
+{
+  "name": "hacknitp2021",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshuzxcv/hackNITP2021_front.git"
+  },
+  "author": "Anshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshuzxcv/hackNITP2021_front/issues"
+  },
+  "homepage": "https://github.com/Anshuzxcv/hackNITP2021_front#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
