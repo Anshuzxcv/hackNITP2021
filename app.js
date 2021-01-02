@@ -1,13 +1,14 @@
 const express = require('express');
 const app = express();
 const ejs = require('ejs');
+const bodyParser = require('body-parser');
 
 const homeRouter = require('./router/homeRouter');
 
 app.use(express.static("public"));
-// app.use(bodyParser.urlencoded({
-//   extended: true
-// }));
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 app.set('view engine', 'ejs');
 app.use('/',homeRouter);
 
