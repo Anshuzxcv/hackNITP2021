@@ -1,0 +1,28 @@
+GET http://localhost:3000
+###
+
+GET http://localhost:3000/login
+###
+
+GET http://localhost:3000/signup
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "anshuzxcv@gmail.com",
+    "password":"pass"
+}
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "email": "anshuzxcv@gmail.com",
+    "phone": 9521416346,
+    "password":"pass",
+    "confirmPassword":"pass"
+}
+###
